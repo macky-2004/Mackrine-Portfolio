@@ -192,18 +192,14 @@ ul{list-style:none}
 .hero-txt{opacity:0;transform:translate3d(0,24px,0);will-change:transform,opacity;animation:fadeUp .7s var(--ease-out) forwards}
 
 .hero-badge{
-  display:inline-flex;align-items:center;gap:7px;
-  padding:4px 14px 4px 4px;background:var(--accent-subtle);
-  border:1px solid rgba(59,130,246,.12);
-  border-radius:var(--radius-full);font-size:.78rem;font-weight:500;
-  color:var(--accent);margin-bottom:28px
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.72rem;font-weight:400;
+  color:var(--text-muted);margin-bottom:28px;
+  letter-spacing:.2px
 }
 .hero-badge-dot{
-  width:18px;height:18px;display:flex;align-items:center;justify-content:center;
-  background:var(--accent);border-radius:50%
-}
-.hero-badge-dot::after{
-  content:'';width:6px;height:6px;background:#fff;border-radius:50%;
+  width:7px;height:7px;border-radius:50%;
+  background:#22c55e;flex-shrink:0;
   animation:pulse 2s ease infinite
 }
 
